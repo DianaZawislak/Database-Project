@@ -97,3 +97,195 @@
  * Running on http://172.29.0.2:5000 (Press CTRL+C to quit)
 2022-03-29 19:35:24,556 INFO werkzeug MainThread :  * Restarting with stat
 2022-03-29 19:35:34,722 INFO werkzeug Thread-3 : 172.29.0.1 - - [29/Mar/2022 19:35:34] "GET / HTTP/1.1" 200 -
+2022-03-30 02:39:53,896 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.2:5000 (Press CTRL+C to quit)
+2022-03-30 02:39:53,897 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-30 02:46:13,899 INFO werkzeug MainThread :  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.2:5000 (Press CTRL+C to quit)
+2022-03-30 02:46:13,900 INFO werkzeug MainThread :  * Restarting with stat
+2022-03-30 02:48:05,968 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:48:05] "GET / HTTP/1.1" 200 -
+2022-03-30 02:48:06,143 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:48:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-03-30 02:49:42,028 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:49:42] "GET /register HTTP/1.1" 200 -
+2022-03-30 02:49:54,193 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:49:54] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-30 02:49:54,209 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:49:54] "GET /login HTTP/1.1" 200 -
+2022-03-30 02:50:03,077 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:50:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 02:50:03,097 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:50:03] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 02:51:12,667 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:12] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 02:51:14,893 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:14] "GET /about HTTP/1.1" 200 -
+2022-03-30 02:51:15,824 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:15] "GET /welcome HTTP/1.1" 200 -
+2022-03-30 02:51:20,277 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:20] "GET /account HTTP/1.1" 200 -
+2022-03-30 02:51:35,312 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:35] "[32mPOST /account HTTP/1.1[0m" 302 -
+2022-03-30 02:51:35,327 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:35] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 02:51:41,724 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:41] "GET /profile HTTP/1.1" 200 -
+2022-03-30 02:51:47,692 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:47] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-03-30 02:51:47,702 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:47] "GET /login HTTP/1.1" 200 -
+2022-03-30 02:51:49,431 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 02:51:49,440 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:49] "GET /login HTTP/1.1" 200 -
+2022-03-30 02:51:57,441 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 02:51:57,449 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:51:57] "GET /login HTTP/1.1" 200 -
+2022-03-30 02:52:01,644 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:52:01] "GET / HTTP/1.1" 200 -
+2022-03-30 02:52:04,554 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:52:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 02:52:04,563 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:52:04] "GET /login HTTP/1.1" 200 -
+2022-03-30 02:52:06,786 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:52:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 02:52:06,794 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:52:06] "GET /login HTTP/1.1" 200 -
+2022-03-30 02:52:08,489 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:52:08] "GET /register HTTP/1.1" 200 -
+2022-03-30 02:52:19,664 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:52:19] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-30 02:52:19,673 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:52:19] "GET /login HTTP/1.1" 200 -
+2022-03-30 02:52:22,717 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:52:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 02:52:22,725 INFO werkzeug Thread-4 : 172.20.0.1 - - [30/Mar/2022 02:52:22] "GET /login HTTP/1.1" 200 -
+2022-03-30 02:57:57,825 INFO werkzeug Thread-8 : 172.20.0.1 - - [30/Mar/2022 02:57:57] "GET / HTTP/1.1" 200 -
+2022-03-30 02:58:00,963 INFO werkzeug Thread-8 : 172.20.0.1 - - [30/Mar/2022 02:58:00] "GET /register HTTP/1.1" 200 -
+2022-03-30 03:07:55,560 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:07:55] "GET /register HTTP/1.1" 200 -
+2022-03-30 03:07:57,486 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:07:57] "GET / HTTP/1.1" 200 -
+2022-03-30 03:08:01,949 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:08:01] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:08:10,247 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:08:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 03:08:10,255 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:08:10] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:08:16,578 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:08:16] "GET /about HTTP/1.1" 200 -
+2022-03-30 03:08:18,435 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:08:18] "GET / HTTP/1.1" 200 -
+2022-03-30 03:08:20,926 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:08:20] "GET /register HTTP/1.1" 200 -
+2022-03-30 03:08:23,944 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:08:23] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:08:30,349 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:08:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 03:08:30,357 INFO werkzeug Thread-10 : 172.20.0.1 - - [30/Mar/2022 03:08:30] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:17:58,384 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:17:58] "GET /register HTTP/1.1" 200 -
+2022-03-30 03:18:16,717 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:18:16] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-30 03:18:16,725 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:18:16] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:18:46,370 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:18:46] "GET /register HTTP/1.1" 200 -
+2022-03-30 03:19:09,161 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:19:09] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-30 03:19:09,171 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:19:09] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:19:26,118 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:19:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 03:19:26,132 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:19:26] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 03:19:37,476 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:19:37] "GET /welcome HTTP/1.1" 200 -
+2022-03-30 03:19:38,498 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:19:38] "GET /about HTTP/1.1" 200 -
+2022-03-30 03:19:39,668 INFO werkzeug Thread-12 : 172.20.0.1 - - [30/Mar/2022 03:19:39] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 03:27:44,318 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:27:44] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 03:27:50,248 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:27:50] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+2022-03-30 03:27:50,263 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:27:50] "GET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-03-30 03:27:50,263 INFO werkzeug Thread-16 : 172.20.0.1 - - [30/Mar/2022 03:27:50] "GET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-03-30 03:27:50,285 INFO werkzeug Thread-16 : 172.20.0.1 - - [30/Mar/2022 03:27:50] "GET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-03-30 03:27:50,313 INFO werkzeug Thread-16 : 172.20.0.1 - - [30/Mar/2022 03:27:50] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-03-30 03:28:08,597 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:28:08] "GET / HTTP/1.1" 200 -
+2022-03-30 03:28:17,109 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:28:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-03-30 03:28:17,119 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:28:17] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:28:20,888 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:28:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 03:28:20,897 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:28:20] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:30:53,766 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:30:53] "GET / HTTP/1.1" 200 -
+2022-03-30 03:31:00,495 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:31:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 03:31:00,504 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:31:00] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:31:20,072 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:31:20] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:34:12,724 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:34:12] "GET / HTTP/1.1" 200 -
+2022-03-30 03:34:15,404 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:34:15] "GET /register HTTP/1.1" 200 -
+2022-03-30 03:34:46,642 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:34:46] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-30 03:34:46,650 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:34:46] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:34:55,029 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:34:55] "GET /login HTTP/1.1" 200 -
+2022-03-30 03:35:12,586 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:35:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 03:35:12,595 INFO werkzeug Thread-15 : 172.20.0.1 - - [30/Mar/2022 03:35:12] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:08:44,073 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:08:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 04:08:44,082 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:08:44] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:08:45,726 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:08:45] "GET / HTTP/1.1" 200 -
+2022-03-30 04:10:23,099 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:10:23] "GET / HTTP/1.1" 200 -
+2022-03-30 04:10:26,514 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:10:26] "GET /register HTTP/1.1" 200 -
+2022-03-30 04:10:39,911 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:10:39] "GET /register HTTP/1.1" 200 -
+2022-03-30 04:10:51,902 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:10:51] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-30 04:10:51,911 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:10:51] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:11:01,400 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:11:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 04:11:01,414 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:11:01] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:12:37,842 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:12:37] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:12:40,882 INFO app Thread-21 : Info level log
+2022-03-30 04:12:40,882 WARNING app Thread-21 : Warning level log
+2022-03-30 04:12:40,943 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:12:40] "GET /users HTTP/1.1" 200 -
+2022-03-30 04:12:40,961 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:12:40] "GET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1" 200 -
+2022-03-30 04:14:09,113 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:14:09] "[32mPOST /users/1/delete HTTP/1.1[0m" 302 -
+2022-03-30 04:14:09,124 INFO app Thread-21 : Info level log
+2022-03-30 04:14:09,124 WARNING app Thread-21 : Warning level log
+2022-03-30 04:14:09,131 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:14:09] "GET /users HTTP/1.1" 200 -
+2022-03-30 04:14:09,146 INFO werkzeug Thread-21 : 172.20.0.1 - - [30/Mar/2022 04:14:09] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-30 04:14:13,270 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:13] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:14:19,651 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:19] "GET / HTTP/1.1" 200 -
+2022-03-30 04:14:25,467 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-03-30 04:14:25,477 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:25] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:14:27,996 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:27] "GET /register HTTP/1.1" 200 -
+2022-03-30 04:14:48,368 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:48] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-30 04:14:48,376 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:48] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:14:54,900 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 04:14:54,915 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:54] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:14:57,825 INFO app Thread-24 : Info level log
+2022-03-30 04:14:57,825 WARNING app Thread-24 : Warning level log
+2022-03-30 04:14:57,833 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:57] "GET /users HTTP/1.1" 200 -
+2022-03-30 04:14:57,851 INFO werkzeug Thread-24 : 172.20.0.1 - - [30/Mar/2022 04:14:57] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-30 04:21:55,559 INFO werkzeug Thread-27 : 172.20.0.1 - - [30/Mar/2022 04:21:55] "[32mPOST /users/2/delete HTTP/1.1[0m" 302 -
+2022-03-30 04:21:55,569 INFO app Thread-27 : Info level log
+2022-03-30 04:21:55,569 WARNING app Thread-27 : Warning level log
+2022-03-30 04:21:55,576 INFO werkzeug Thread-27 : 172.20.0.1 - - [30/Mar/2022 04:21:55] "GET /users HTTP/1.1" 200 -
+2022-03-30 04:21:55,590 INFO werkzeug Thread-27 : 172.20.0.1 - - [30/Mar/2022 04:21:55] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-30 04:22:41,383 INFO werkzeug Thread-26 : 172.20.0.1 - - [30/Mar/2022 04:22:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-03-30 04:22:41,392 INFO werkzeug Thread-26 : 172.20.0.1 - - [30/Mar/2022 04:22:41] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:22:44,470 INFO werkzeug Thread-26 : 172.20.0.1 - - [30/Mar/2022 04:22:44] "GET /register HTTP/1.1" 200 -
+2022-03-30 04:23:06,291 INFO werkzeug Thread-26 : 172.20.0.1 - - [30/Mar/2022 04:23:06] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-30 04:23:06,300 INFO werkzeug Thread-26 : 172.20.0.1 - - [30/Mar/2022 04:23:06] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:23:10,932 INFO werkzeug Thread-26 : 172.20.0.1 - - [30/Mar/2022 04:23:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 04:23:10,947 INFO werkzeug Thread-26 : 172.20.0.1 - - [30/Mar/2022 04:23:10] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:23:20,136 INFO werkzeug Thread-26 : 172.20.0.1 - - [30/Mar/2022 04:23:20] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+2022-03-30 04:23:20,156 INFO werkzeug Thread-26 : 172.20.0.1 - - [30/Mar/2022 04:23:20] "[36mGET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-03-30 04:23:20,156 INFO werkzeug Thread-28 : 172.20.0.1 - - [30/Mar/2022 04:23:20] "[36mGET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-03-30 04:23:20,166 INFO werkzeug Thread-29 : 172.20.0.1 - - [30/Mar/2022 04:23:20] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-03-30 04:23:26,878 INFO werkzeug Thread-31 : 172.20.0.1 - - [30/Mar/2022 04:23:26] "GET /account HTTP/1.1" 200 -
+2022-03-30 04:23:53,159 INFO werkzeug Thread-31 : 172.20.0.1 - - [30/Mar/2022 04:23:53] "POST /account HTTP/1.1" 200 -
+2022-03-30 04:23:56,983 INFO werkzeug Thread-31 : 172.20.0.1 - - [30/Mar/2022 04:23:56] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:23:57,747 INFO app Thread-31 : Info level log
+2022-03-30 04:23:57,747 WARNING app Thread-31 : Warning level log
+2022-03-30 04:23:57,754 INFO werkzeug Thread-31 : 172.20.0.1 - - [30/Mar/2022 04:23:57] "GET /users HTTP/1.1" 200 -
+2022-03-30 04:23:57,772 INFO werkzeug Thread-31 : 172.20.0.1 - - [30/Mar/2022 04:23:57] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-30 04:28:36,518 INFO werkzeug Thread-32 : 172.20.0.1 - - [30/Mar/2022 04:28:36] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:28:38,904 INFO werkzeug Thread-32 : 172.20.0.1 - - [30/Mar/2022 04:28:38] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:29:05,885 INFO app Thread-32 : Info level log
+2022-03-30 04:29:05,885 WARNING app Thread-32 : Warning level log
+2022-03-30 04:29:05,891 INFO werkzeug Thread-32 : 172.20.0.1 - - [30/Mar/2022 04:29:05] "GET /users HTTP/1.1" 200 -
+2022-03-30 04:29:05,909 INFO werkzeug Thread-32 : 172.20.0.1 - - [30/Mar/2022 04:29:05] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-30 04:29:08,544 INFO werkzeug Thread-33 : 172.20.0.1 - - [30/Mar/2022 04:29:08] "[32mPOST /users/2/delete HTTP/1.1[0m" 302 -
+2022-03-30 04:29:08,554 INFO app Thread-33 : Info level log
+2022-03-30 04:29:08,555 WARNING app Thread-33 : Warning level log
+2022-03-30 04:29:08,562 INFO werkzeug Thread-33 : 172.20.0.1 - - [30/Mar/2022 04:29:08] "GET /users HTTP/1.1" 200 -
+2022-03-30 04:29:08,572 INFO werkzeug Thread-33 : 172.20.0.1 - - [30/Mar/2022 04:29:08] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-30 04:29:12,640 INFO werkzeug Thread-34 : 172.20.0.1 - - [30/Mar/2022 04:29:12] "[32mPOST /users/1/delete HTTP/1.1[0m" 302 -
+2022-03-30 04:29:12,649 INFO app Thread-34 : Info level log
+2022-03-30 04:29:12,649 WARNING app Thread-34 : Warning level log
+2022-03-30 04:29:12,656 INFO werkzeug Thread-34 : 172.20.0.1 - - [30/Mar/2022 04:29:12] "GET /users HTTP/1.1" 200 -
+2022-03-30 04:29:12,670 INFO werkzeug Thread-34 : 172.20.0.1 - - [30/Mar/2022 04:29:12] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-30 04:29:16,636 INFO werkzeug Thread-35 : 172.20.0.1 - - [30/Mar/2022 04:29:16] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:29:21,071 INFO werkzeug Thread-35 : 172.20.0.1 - - [30/Mar/2022 04:29:21] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-03-30 04:29:21,079 INFO werkzeug Thread-35 : 172.20.0.1 - - [30/Mar/2022 04:29:21] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:29:23,684 INFO werkzeug Thread-35 : 172.20.0.1 - - [30/Mar/2022 04:29:23] "GET /register HTTP/1.1" 200 -
+2022-03-30 04:29:41,805 INFO werkzeug Thread-35 : 172.20.0.1 - - [30/Mar/2022 04:29:41] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-30 04:29:41,814 INFO werkzeug Thread-35 : 172.20.0.1 - - [30/Mar/2022 04:29:41] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:30:04,402 INFO werkzeug Thread-35 : 172.20.0.1 - - [30/Mar/2022 04:30:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 04:30:04,417 INFO werkzeug Thread-35 : 172.20.0.1 - - [30/Mar/2022 04:30:04] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:31:01,137 INFO werkzeug Thread-35 : 172.20.0.1 - - [30/Mar/2022 04:31:01] "[35m[1mGET /profile HTTP/1.1[0m" 500 -
+2022-03-30 04:31:01,157 INFO werkzeug Thread-37 : 172.20.0.1 - - [30/Mar/2022 04:31:01] "[36mGET /profile?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-03-30 04:31:01,157 INFO werkzeug Thread-35 : 172.20.0.1 - - [30/Mar/2022 04:31:01] "[36mGET /profile?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-03-30 04:31:01,167 INFO werkzeug Thread-38 : 172.20.0.1 - - [30/Mar/2022 04:31:01] "[36mGET /profile?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-03-30 04:37:48,768 INFO werkzeug Thread-39 : 172.20.0.1 - - [30/Mar/2022 04:37:48] "GET /profile HTTP/1.1" 200 -
+2022-03-30 04:37:54,948 INFO werkzeug Thread-39 : 172.20.0.1 - - [30/Mar/2022 04:37:54] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:37:58,276 INFO werkzeug Thread-39 : 172.20.0.1 - - [30/Mar/2022 04:37:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-03-30 04:37:58,286 INFO werkzeug Thread-39 : 172.20.0.1 - - [30/Mar/2022 04:37:58] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:38:00,407 INFO werkzeug Thread-39 : 172.20.0.1 - - [30/Mar/2022 04:38:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 04:38:00,420 INFO werkzeug Thread-39 : 172.20.0.1 - - [30/Mar/2022 04:38:00] "GET /dashboard HTTP/1.1" 200 -
+2022-03-30 04:38:24,912 INFO app Thread-39 : Info level log
+2022-03-30 04:38:24,912 WARNING app Thread-39 : Warning level log
+2022-03-30 04:38:24,919 INFO werkzeug Thread-39 : 172.20.0.1 - - [30/Mar/2022 04:38:24] "GET /users HTTP/1.1" 200 -
+2022-03-30 04:38:24,937 INFO werkzeug Thread-39 : 172.20.0.1 - - [30/Mar/2022 04:38:24] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-30 04:38:45,587 INFO werkzeug Thread-40 : 172.20.0.1 - - [30/Mar/2022 04:38:45] "[32mPOST /users/2/delete HTTP/1.1[0m" 302 -
+2022-03-30 04:38:45,596 INFO app Thread-40 : Info level log
+2022-03-30 04:38:45,597 WARNING app Thread-40 : Warning level log
+2022-03-30 04:38:45,604 INFO werkzeug Thread-40 : 172.20.0.1 - - [30/Mar/2022 04:38:45] "GET /users HTTP/1.1" 200 -
+2022-03-30 04:38:45,617 INFO werkzeug Thread-40 : 172.20.0.1 - - [30/Mar/2022 04:38:45] "[36mGET /bootstrap/static/icons/bootstrap-icons.svg HTTP/1.1[0m" 304 -
+2022-03-30 04:41:00,702 INFO werkzeug Thread-42 : 172.20.0.1 - - [30/Mar/2022 04:41:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-03-30 04:41:00,712 INFO werkzeug Thread-42 : 172.20.0.1 - - [30/Mar/2022 04:41:00] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:41:04,351 INFO werkzeug Thread-42 : 172.20.0.1 - - [30/Mar/2022 04:41:04] "GET /register HTTP/1.1" 200 -
+2022-03-30 04:41:27,455 INFO werkzeug Thread-42 : 172.20.0.1 - - [30/Mar/2022 04:41:27] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-03-30 04:41:27,465 INFO werkzeug Thread-42 : 172.20.0.1 - - [30/Mar/2022 04:41:27] "GET /login HTTP/1.1" 200 -
+2022-03-30 04:41:51,186 INFO werkzeug Thread-42 : 172.20.0.1 - - [30/Mar/2022 04:41:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-03-30 04:41:51,201 INFO werkzeug Thread-42 : 172.20.0.1 - - [30/Mar/2022 04:41:51] "GET /dashboard HTTP/1.1" 200 -
